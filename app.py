@@ -8,7 +8,7 @@ from pandasai.responses.response_parser import ResponseParser
 import os
 
 # Set OpenAI API Token
-OPENAI_API_TOKEN = os.getenv("BIT_OPENAI_API_KEY", "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")
+OPENAI_API_TOKEN = st.secrets["BIT_OPENAI_API_KEY"]
 
 # Load OpenAI Mini model
 llm = OpenAI(api_token=OPENAI_API_TOKEN, model_name="gpt-4o-mini")

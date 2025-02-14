@@ -80,10 +80,6 @@ def main():
                 st.write("### First 10 Rows of Data")
                 st.dataframe(df.head(10))
                 
-                st.write("### Column Details")
-                for col in df.columns:
-                    st.write(f"**{col}**")
-                    st.dataframe(df[[col]].head(10))
             
             query = st.text_area("Enter Your Query")
             

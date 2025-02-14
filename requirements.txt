@@ -2,6 +2,6 @@ streamlit
 pandas
 matplotlib
 openpyxl
-pandasai==2.0.24
+pandasai
 pyyaml
 python-dotenv

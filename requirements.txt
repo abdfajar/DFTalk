@@ -1,6 +1,6 @@
 streamlit
 pandas
-matplotlib
+matplotlib==3.9.2
 openpyxl
 pandasai==1.4.10
 pyyaml

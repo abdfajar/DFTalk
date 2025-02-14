@@ -1,7 +1,7 @@
-streamlit
-pandas
+streamlit=1.40.1
+pandas=1.5.3
 matplotlib==3.9.2
 openpyxl
 pandasai==1.4.10
 pyyaml
-python-dotenv
+python-dotenv==1.0.1
